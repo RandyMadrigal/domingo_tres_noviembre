@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yes-button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+
+#no-button {
+    background-color: #f44336; /* Rojo */
+    color: white;
+}
